@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/dvish2003/watch-store-site.git'
+                git branch: 'develop', url: 'https://github.com/dvish2003/watch-store-site.git'
             }
         }
         stage('Build Docker Image') {
