@@ -1,6 +1,6 @@
 // app/page.js
 import HeroPage from "./hero/page";
-import ProductPage from "./featureProduct/page";
+import ProductPage from "./product/page";
 import FeatureProduct from "./featureProduct/page";
 import TestimonialsPage from "./testimonials/page";
 import NewsLetter from "./newsLetter/page";
